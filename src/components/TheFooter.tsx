@@ -8,10 +8,9 @@ export function TheFooter() {
           &copy; {new Date().getFullYear()} WladTer
         </div>
         <div>
-
           <nav className="flex gap-5 text-sm">
             <a
-              href="https://github.com/Dmitro1986/dog-search"
+              href="https://github.com/Dmitro1986/ItCheatSheets"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-red-400 transition-colors duration-200"

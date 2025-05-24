@@ -29,7 +29,7 @@ export const menu: MenuItem[] = [
     items: [{ title: "Шпаргалка Git", href: "/git" }],
   },
   {
-    section: "⚡ Terminal",
+    section: "💾 Terminal",
     items: [
       { title: "Шпаргалка Terminal", href: "/terminal" },
       // { title: "Vue", href: "/frontend/vue" },
@@ -47,19 +47,19 @@ export const menu: MenuItem[] = [
     items: [{ title: "Шпаргалка JavaScript", href: "/javascript" }],
   },
   {
-    section: "📒 React",
+    section: "🔵⚛️ React",
     items: [{ title: "Шпаогалка React", href: "/react" }],
   },
   {
-    section: "📒 CSS",
+    section: "🎨 CSS",
     items: [{ title: "Шпаргалка CSS", href: "/css" }],
   },
   {
-    section: "📒 Data",
+    section: "🗄️ Data",
     items: [{ title: "Шпаргалка DataBase", href: "/data" }],
   },
   {
-    section: "📒 HTTP/API",
+    section: "🌍 HTTP/API",
     items: [{ title: "Шпаргалка HTTP/API", href: "/httpapi" }],
   },
 ];
