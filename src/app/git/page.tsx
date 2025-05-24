@@ -163,7 +163,6 @@ const commands = [
 function CommandBlock({ cmd, descr }: { cmd: string; descr: string }) {
   const [copied, setCopied] = useState(false);
 
-  // красивый подсвет/выделение <...>
   const highlighted = cmd.replace(
     /<(\w+)>/g,
     '<span class="text-blue-500 font-semibold">&lt;$1&gt;</span>'

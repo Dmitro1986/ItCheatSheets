@@ -32,14 +32,12 @@ export const menu: MenuItem[] = [
     section: "💾 Terminal",
     items: [
       { title: "Шпаргалка Terminal", href: "/terminal" },
-      // { title: "Vue", href: "/frontend/vue" },
     ],
   },
   {
     section: "🐳 Docker",
     items: [
       { title: "Шпаргалка Docker", href: "/docker" },
-      // { title: "Express", href: "/backend/express" },
     ],
   },
   {
@@ -48,7 +46,7 @@ export const menu: MenuItem[] = [
   },
   {
     section: "🔵⚛️ React",
-    items: [{ title: "Шпаогалка React", href: "/react" }],
+    items: [{ title: "Шпаргалка React", href: "/react" }],
   },
   {
     section: "🎨 CSS",

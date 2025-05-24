@@ -155,7 +155,6 @@ RIGHT JOIN orders ON users.id = orders.user_id;`,
 function CommandBlock({ cmd, descr }: { cmd: string; descr: string }) {
   const [copied, setCopied] = useState(false);
 
-  // Подсветка: ключевые слова, имена таблиц, скобки, многострочный вывод
   const highlighted = cmd
     .replace(
       /\b(SELECT|FROM|WHERE|ORDER BY|LIMIT|OFFSET|DISTINCT|COUNT|JOIN|LEFT JOIN|RIGHT JOIN|ON|INSERT INTO|VALUES|UPDATE|SET|DELETE FROM|CREATE|TABLE|DATABASE|PRIMARY KEY|AUTO_INCREMENT|UNIQUE|INDEX|ALTER|ADD|DROP|EXPLAIN|SHOW|DESCRIBE|TRUNCATE|BOOLEAN|DEFAULT|FOREIGN_KEY_CHECKS)\b/gi,
